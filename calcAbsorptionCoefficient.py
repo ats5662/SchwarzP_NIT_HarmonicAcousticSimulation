@@ -1,7 +1,7 @@
 def cac(pathMic1, pathMic2, freqSamples):
     import numpy as np
     import pandas as pd
-    rho0 = 1.2
+    rho0 = 1.21
     c = np.sqrt(142604.4/1.21)
     f = np.linspace(377, 3400, freqSamples)
     k = 2 * np.pi * f[:] / c
